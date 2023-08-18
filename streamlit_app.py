@@ -64,9 +64,9 @@ thanks = streamlit.text('Thanks for adding Jackfruit')
 
 insert into fruit_load_list values ('from streamlit');
 
-streamlit.write('Thanks for adding ' , add_my_fruit
+streamlit.write('Thanks for adding ' , add_my_fruit)
 
-my.cur.execute("insert into fruit_load_list values ('from streanlit')")
+my_cur.execute("insert into fruit_load_list values ('from streamlit')")
 
 
 
