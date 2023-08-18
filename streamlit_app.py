@@ -30,7 +30,7 @@ fruits_to_show = my_fruit_list.loc[fruits_selected ]
 streamlit.dataframe(fruits_to_show)
 
 #create the repeatable code block (called a function)
-def get _fruityvice_data(this_fruit_choice):
+def get_fruityvice_data(this_fruit_choice):
 
 #new section to display fruityvice api response
 streamlit.header('Fruityvice Fruit Advice!')
